@@ -1,0 +1,179 @@
+{
+  "categorias": [
+    {
+      "id": "c01",
+      "nombre": "Portatiles",
+      "activa": "true"
+    },
+    {
+      "id": "c02",
+      "nombre": "Discos Duros",
+      "activa": "false"
+    },
+    {
+      "id": "c03",
+      "nombre": "Sobremesas",
+      "activa": "false"
+    }
+  ],
+  "fotos": [
+    {
+      "id": "foto1",
+      "activa": "true",
+      "link": "fotos/f1.jpg"
+    },
+    {
+      "id": "foto2",
+      "activa": "false",
+      "link": "fotos/f2.jpg"
+    },
+    {
+      "id": "foto3",
+      "activa": "false",
+      "link": "fotos/f3.jpg"
+    }
+  ],
+  "carritos": [
+    {
+      "fecha": "11/05/2019",
+      "id": 1,
+      "articulos": [
+        {
+          "codigo": "arta01",
+          "descripcion": "Portatil1",
+          "precio": "Lenovo i3",
+          "unidades": 2
+        }
+      ]
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 2,
+      "articulos": [
+        {
+          "codigo": "arta05",
+          "descripcion": "Sobremesa1",
+          "precio": "HP i7",
+          "unidades": 3
+        }
+      ]
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 3,
+      "articulos": [
+        {
+          "codigo": "arta01",
+          "descripcion": "Portatil1",
+          "precio": "Lenovo i3",
+          "unidades": 1
+        }
+      ]
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 4,
+      "articulos": [
+        {
+          "codigo": "arta08",
+          "descripcion": "Disco1",
+          "precio": "Western Digital",
+          "unidades": 2
+        },
+        {
+          "codigo": "arta09",
+          "descripcion": "Disco2",
+          "precio": "Seagate 5Tb",
+          "unidades": 2
+        }
+      ]
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 5,
+      "articulos": []
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 6,
+      "articulos": []
+    },
+    {
+      "fecha": "11/05/2019",
+      "id": 7,
+      "articulos": []
+    }
+  ],
+  "articulos": [
+    {
+      "id": "a01",
+      "nombre": "Portatil1",
+      "descripcion": "Lenovo i3",
+      "precio": "1500",
+      "idCat": "c01"
+    },
+    {
+      "id": "a02",
+      "nombre": "Portatil2",
+      "descripcion": "Asus i5",
+      "precio": "1600",
+      "idCat": "c01"
+    },
+    {
+      "id": "a03",
+      "nombre": "Portatil3",
+      "descripcion": "Toshiba i7",
+      "precio": "1700",
+      "idCat": "c01"
+    },
+    {
+      "id": "a04",
+      "nombre": "Portatil4",
+      "descripcion": "HP convertible",
+      "precio": "500",
+      "idCat": "c01"
+    },
+    {
+      "id": "a05",
+      "nombre": "Sobremesa1",
+      "descripcion": "HP i7",
+      "precio": "5000",
+      "idCat": "c03"
+    },
+    {
+      "id": "a06",
+      "nombre": "Sobremesa2",
+      "descripcion": "HP i5",
+      "precio": "6000",
+      "idCat": "c03"
+    },
+    {
+      "id": "a07",
+      "nombre": "Sobremesa3",
+      "descripcion": "Toshiba i7",
+      "precio": "700",
+      "idCat": "c03"
+    },
+    {
+      "id": "a08",
+      "nombre": "Disco1",
+      "descripcion": "Western Digital",
+      "precio": "349",
+      "idCat": "c02"
+    },
+    {
+      "id": "a09",
+      "nombre": "Disco2",
+      "descripcion": "Seagate 5Tb",
+      "precio": "174",
+      "idCat": "c02"
+    },
+    {
+      "id": "a10",
+      "nombre": "Disco3",
+      "descripcion": "Samsumg USB 3.0",
+      "precio": "99",
+      "idCat": "c02"
+    }
+  ]
+}
